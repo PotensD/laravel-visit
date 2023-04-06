@@ -17,7 +17,6 @@ class VisitServiceProvider extends PackageServiceProvider
         $package
             ->name('visit')
             ->hasConfigFile()
-            ->hasViews()
             ->hasMigration('create_visits_table');
     }
 }
